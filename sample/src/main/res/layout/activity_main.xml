@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+
+    <com.inferjay.twolinetextview.TwoLineTextView
+        android:id="@+id/tv_xml_set_attr_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:firstLineText="185"
+        app:firstLineTextColor="#FFA52B2C"
+        app:firstLineTextSize="18sp"
+        android:text="全部"
+        android:textColor="#35a53f"
+        android:textSize="12sp"/>
+
+    <com.inferjay.twolinetextview.TwoLineTextView
+        android:id="@+id/tv_code_set_attr_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

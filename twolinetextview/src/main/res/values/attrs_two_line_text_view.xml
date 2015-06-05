@@ -1,0 +1,8 @@
+<resources>
+    <declare-styleable name="TwoLineTextView">
+        <attr name="firstLineText" format="string" />
+        <attr name="firstLineTextSize" format="dimension" />
+        <attr name="firstLineTextColor" format="color" />
+        <attr name="lineSpaceHeight" format="dimension" />
+    </declare-styleable>
+</resources>
